@@ -81,7 +81,7 @@ class _ReferralDashboardState extends State<ReferralDashboard> {
                       alignment: Alignment.bottomCenter,
                       width: 100,
                       child: Text(
-                       "${cashEarned()}",
+                        "${cashEarned()}",
                         style: TextStyle(
                             fontSize: 18, fontWeight: FontWeight.bold),
                       ),
@@ -184,22 +184,11 @@ class _ReferralDashboardState extends State<ReferralDashboard> {
               thickness: 1,
               color: Colors.black,
             ),
-            referalUsers("harry", 1000, "myntra"),
-            referalUsers("potter", 2000, "zepp"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-            referalUsers("snape", 3000, "ecko"),
-
+            referalUsers("suman   ", 1000, "sameer"),
+            referalUsers("rishabh ", 2000, "arayan"),
+            referalUsers("harsh   ", 3000, "aman"),
+            referalUsers("abhishek", 4000, "rohan"),
+            referalUsers("rithik  ", 5000, "neeraj"),
             SizedBox(
               height: 20,
             ),
@@ -212,7 +201,7 @@ class _ReferralDashboardState extends State<ReferralDashboard> {
 
   bottomPart() {
     return Container(
-     alignment: Alignment.center,
+      alignment: Alignment.center,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
@@ -261,7 +250,6 @@ class _ReferralDashboardState extends State<ReferralDashboard> {
   }
 
   referalUsers(String name, int num, String status) {
-
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
